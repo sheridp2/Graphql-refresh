@@ -24,6 +24,7 @@ const typeDefs = `
     isMarried: Boolean 
   }
 `;
+
 const resolvers = {
   Query: {
     getUsers: () => {
